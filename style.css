@@ -1,0 +1,201 @@
+.main {
+    background-color: #f8fafc;
+}
+
+h1 {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+h2, h3 {
+    color: #1e3a8a;
+}
+
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #0f172a;
+}
+
+[data-testid="stSidebar"] * {
+    color: white;
+}
+/* What I Do Cards */
+.skill-card {
+    padding: 25px;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    text-align: center;
+    min-height: 170px;
+    background-color: #eff6ff;
+    color: #1e3a8a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+    color: #1e3a8a;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(30, 58, 138, 0.15);
+}
+/* Career Goal */
+.career-goal {
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #f1f5f9;
+    text-align: center;
+    margin-top: 15px;
+}
+/* Internship Cards */
+
+.internship-card {
+    padding: 25px;
+    border: 1px solid #dbeafe;
+    border-radius: 15px;
+    text-align: center;
+    height: 220px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.internship-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+/* Internship Card Hover Effect */
+
+[data-testid="stAlert"] {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-testid="stAlert"]:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+/* Navigation Bar */
+
+[data-testid="stSidebar"] {
+    background-color: #0f172a;
+    padding-top: 20px;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Navigation text */
+
+[data-testid="stSidebar"] .stRadio label {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 5px;
+}
+
+/* Hover effect */
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    color: #93c5fd !important;
+    cursor: pointer;
+}
+/* Navigation Options */
+
+[data-testid="stSidebar"] .stRadio > div {
+    gap: 8px;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stSidebar"] .stRadio label:hover {
+    background-color: #1e3a8a;
+    color: white !important;
+    transform: translateX(4px);
+}
+/* Navigation Spacing */
+
+[data-testid="stSidebar"] .stRadio {
+    padding-top: 5px;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    margin-bottom: 4px;
+}
+/* Active Navigation Item */
+
+[data-testid="stSidebar"] .stRadio label:has(input:checked) {
+    background-color: #1e3a8a;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 8px;
+}
+/* Overall Portfolio Design */
+
+.main {
+    background-color: #f8fafc;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1200px;
+}
+
+h1 {
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1e3a8a;
+    font-weight: 650;
+}
+
+h3 {
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+p {
+    color: #475569;
+    line-height: 1.7;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dbeafe;
+    margin: 25px 0;
+}
+/* Professional Buttons */
+
+.stButton > button,
+.stLinkButton > a {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover,
+.stLinkButton > a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(30, 58, 138, 0.20);
+}
